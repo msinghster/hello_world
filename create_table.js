@@ -7,6 +7,6 @@ con.connect(function(err) {
   console.log("Connected!");
   con.query("CREATE TABLE customers (name VARCHAR(255), address VARCHAR(255))", function (err, result) {
   	if (err) throw err;
-    console.log("Table created");
+    console.log("Table cresated");
   });
 });
